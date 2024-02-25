@@ -1,0 +1,157 @@
+body{
+    font-family: Arial;
+    margin: 0px;
+}
+header{
+    width:100%;
+    height:100%;
+    margin-bottom: 60px;
+}
+.navegador ul{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    padding-right:50px;
+    padding-left:80px;
+}
+.sublista{
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    border:none;
+    margin-left: 0px;
+    padding-left:0px;
+}
+form{
+    /*border:1px solid black;*/
+    margin-left: 100px;
+    padding:20px;
+    width:35%;
+}
+.info{
+    margin-bottom: 30px;
+    position:relative;
+}
+.info label{
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    display:block;
+    width:100%;
+}
+.input-info{
+    width:100%;
+    padding: 5px;
+}
+.terms{
+    display: flex;
+    font-size: 12px;
+}
+.enviar{
+    background-color: rgba(0,0,0,0);
+    border:2px dotted grey;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor:pointer;
+    padding:15px;
+    color:grey;
+}
+.texto{
+    font-size:15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info:last-of-type {
+    margin-bottom: 5px;
+}
+.logos{
+    width: 20px;
+}
+.google{
+    background-color: #5086ed;
+    display:flex;
+    align-items: center;
+}
+.facebook{
+    background-color:#4968ad; 
+    display:flex;
+    align-items: center;
+}
+.login-apps{
+    display: flex;
+}
+.login-apps a{
+    margin-right:10px;
+    cursor: pointer;
+}
+.login-apps a{
+    border-radius: 3px;
+    padding:8px;
+    color:white;
+}
+.texto-logos{
+    margin-left:10px;
+}
+.terms a, .sublista a{
+    color:#508ae7;
+    cursor:pointer;
+}
+.texto-logos{
+    font-size: 13px;
+}
+
+footer{
+    width:100%; 
+    height:70px;
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+footer ul{
+    display:flex; 
+    list-style: none;
+    padding-left:80px;
+}
+footer ul li{
+    margin-right:30px;
+}
+footer ul li:first-of-type{
+    margin-right:90px;
+}
+footer::before {
+    content: '';
+    height: 5px;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom,white, rgb(210, 210, 210));
+}
+.navegador::after {
+    content: '';
+    height: 5px;
+    position: absolute;
+    top: 70px; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom,rgb(210, 210, 210),white);
+}
+.input-icon.password {
+    left: unset;
+    right: 0px;
+  }
+.input-wrapper {
+    position: relative;
+    width: 100%;
+  }
+.input-icon {
+    color: #b0b0b0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 73%;
+    transform: translateY(-50%);
+}

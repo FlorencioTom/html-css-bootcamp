@@ -1,0 +1,183 @@
+body{
+    margin:0px;
+    font-family: arial;
+}
+.header, .main{
+    width:100%;
+}
+.header-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+.header-container-paginas{
+    background-color: white;
+    border-top:1px solid #dfdfdf;
+    border-bottom:1px solid #dfdfdf;
+}
+.nav{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    list-style: none;
+}
+.logo{
+    widows: 247px;
+}
+.lista{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+.lista .item{
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:10px;
+    padding-left:10px;
+    border-right:1px solid black;
+    color:#696969;
+}
+.telefono{
+    padding-right:10px;
+    padding-left:10px;  
+    color:#696969;
+    font-size: 20px; 
+}
+.contacto{
+    padding:0px;
+}
+.paginas{
+    margin:0;
+    padding-left:0;
+    height:50px;
+}
+
+.lista .paginas-item{
+    padding-top:0px;
+    margin-right: 20px;
+    color:#696969;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.paginas-item{
+    height:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px;
+}
+.menu-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #6db200;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    font-size:10px;
+    color:white;
+    line-height: 0px;
+}
+.menu-span{
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+.fa-bars{
+    text-align: center;
+    font-size:30px;
+    color:white;
+}
+.current{
+    font-weight: bold;
+    position: relative;
+}
+.current::after{
+    content: '';
+    width:110px;
+    height:5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6db200;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+.main-container{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.inicio{
+    color: #6db200;
+}
+.filtros, .migas{
+    width:100%;
+}
+.filtros{
+    display:flex;
+    justify-content:space-between;
+}
+.btn-filtros{
+    background-color: #6db200;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    border:none;
+    padding: 10px;
+    color:white;
+}
+.ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 30px;
+}
+.oferta{
+    width:48%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+    margin-bottom: 40px;
+}
+.informacion{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo, .descripcion, .informacion{
+    margin:0px;
+    padding: 15px;
+}
+.precio{
+    display: flex;
+    flex-direction: column;
+}
+.desde{
+    color:grey;
+    font-weight: bold;
+}
+.euros{
+    font-size: 50px;
+    font-weight: bold;
+    color:#6db200;
+}
+.boton{
+    background-color: white;
+    border:1px solid  #6db200;
+    color: #6db200;
+    font-weight: bold;
+    height: 50px;
+}

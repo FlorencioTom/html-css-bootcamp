@@ -1,0 +1,254 @@
+body{
+    font-family: Arial;
+    margin:0px;
+}
+.header{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    z-index: 99;
+    color:white
+}
+.bmw-nav{
+    width:70%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid white;
+}
+.paginas{
+    display:flex;
+    align-items: center;
+    padding-left:0px;
+}
+.paginas li{
+    list-style: none;
+    font-weight: bold;
+    padding:15px;
+    text-align: center;
+    cursor:pointer;
+}
+.logo img{
+    width:50px;
+    padding-top:15px;
+}
+.logo span{
+    font-size:10px;
+}
+.logo-container {
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center; 
+    margin-left:20px;
+}
+.logo-container span{
+     background-color: white;
+     color:black;
+     border-top:1px solid black;
+}
+.logo-container div{
+    background-color: white;
+    width:100%;
+}
+.coche{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.coche img{
+    width:100%;
+    height:900px;
+    object-fit: cover;
+}
+.overlay{
+    top:37%;
+    left:0;
+    position:absolute;
+    z-index:2;
+    width:100%;
+    color:white;
+}
+.container-overlay{
+    margin-left:150px;
+}
+.difuminado{
+    width:100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    background: rgb(9,9,121);
+    background: linear-gradient(180deg, rgba(9,9,121,0) 0%, rgba(255,255,255,1) 82%);
+}
+.btn{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:#1c69d5;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+.container-filtros{
+    width:60%;
+}
+.container-filtros{
+    justify-content: center;
+}
+main{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.filtros{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.filtros .paginas li{
+    color:#b5b5b5;
+    border-bottom:3px solid #b5b5b5;
+}
+.current{
+    border-bottom:3px solid #1c69d5  !important;
+    font-size:20px;
+    color:black !important;
+    padding:0;
+}
+.autos, .entradas, .intereses, .opciones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.entradas, .opciones{
+    margin-top: 100px;
+}
+.auto img, .interes img{
+    width:100%; 
+ }
+.auto{
+   width:25%; 
+}
+.interes{
+    width:calc(50% - 50px);  
+ }
+.entrada, .opcion{
+    width:calc(25% - 50px); 
+ }
+.auto ul{
+    list-style: none; 
+    padding-left:0px;
+    margin-top:10px;
+ }
+ .auto ul li i, .auto ul li{
+    font-size:13px;
+    font-weight: bold;
+ }
+ .auto-titulo, .auto-precio{
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom:0px;
+ }
+ .auto-precio{
+   color: #c3c3c3;
+   font-weight: bold;
+   font-size:13px;
+ }
+
+ .entrada, .interes, .opcion{
+    display:flex;
+    flex-direction: column;
+    border:1px solid #eeeeee;
+    padding:10px;
+ }
+ .entrada img, .entrada, .interes img, .interes{
+    border-radius:5px;
+ }
+ .entrada-texto{
+    margin-top:0px;
+ }
+ .entrada-titulo{
+    margin-bottom:10px;
+ }
+ .entrada-detail{
+    font-weight:bold;
+ }
+.entradas, .intereses, .opciones{
+    justify-content: space-between;
+}
+.interes{
+    margin-top: 50px;
+}
+.opciones{
+
+}
+.opcion{
+    color:#424242;
+    height:100px;
+    background-color:#f2f2f2;
+    align-items:center;
+    justify-content:center;
+}
+.opcion span{
+    padding-top:10px;
+}
+footer{
+    background-color: #e6e6e6;
+    padding-top:50px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top:100px;
+}
+.container-footer{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #b5b5b5;
+}
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+li.title{
+    font-weight: bold;
+    margin-bottom:20px;
+    color: black;
+}
+li.item{
+    font-weight: bold;
+    color:#919191;
+}
+.info{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.container-info{
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+}
+.container-info ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+.container-info ul li{
+    color:#6c9edc;
+    padding:20px;
+    cursor:pointer;
+}
+.container-info span{
+    padding:20px;
+    display: flex;
+    align-items: center;
+}
