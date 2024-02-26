@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: arial;
+}
+.zapatillas{
+    width:100%;
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.zapatilla{
+    width:30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    color:#88888a;
+}
+.materiales{
+   color:#993300;
+}
+.precio, .info, .materiales{
+    font-weight: bold;
+    margin-top:7px;
+}
